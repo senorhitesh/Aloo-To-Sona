@@ -9,8 +9,8 @@ const Gradient = () => {
       backgroundImage: `
         radial-gradient(
           circle at top center,
-         #faedcd,
-          transparent 30%
+         #8338ec,
+          transparent 10%
         )
       `,
       filter: "blur(80px)",

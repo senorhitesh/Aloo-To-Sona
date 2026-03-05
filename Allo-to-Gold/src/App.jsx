@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import NavBar from './components/NavBar'
 import Gradient from './components/Gradient'
 import Hero from './components/Hero'
@@ -20,7 +20,7 @@ const App = () => {
     };
   }, []);
   return (<>
-    <div className='max-w-6xl mx-auto  '>
+         <div className='max-w-7xl mx-auto   '>
       <Gradient/>
      <CustomCursor x={mousePos.x} y={mousePos.y} isHovering={isHovering} />
       <NavBar />
