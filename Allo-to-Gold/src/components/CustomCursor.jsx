@@ -1,16 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
 
-const CustomCursor = ({ x, y }) => {
+const CustomCursor = ({ x, y, isHovering }) => {
   return (
-    <div 
-      className='w-6 h-6 bg-mist-950 rounded-full fixed pointer-events-none z-50' 
-      style={{ 
-        top: y, 
-        left: x,
-        transform: 'translate(-50%, -50%)' // Centers the circle on the mouse tip
-      }}
-    ></div>
-  )
-}
+<motion.div
+  className="fixed rounded-full pointer-events-none z-50 bg-white"
+  animate={{
+    // If width is 24, subtract 12. If hovering width is 96, subtract 48.
+    x: x - (isHovering ? 48 : 12), 
+    y: y - (isHovering ? 48 : 12),
+    width: isHovering ? 166 : 24,
+    height: isHovering ? 166 : 24,
+  }}
+  style={{ mixBlendMode: "difference" }}
+/>
+  );
+};
 
 export default CustomCursor;

@@ -21,6 +21,3 @@ const Gradient = () => {
 }
 
 export default Gradient
-  {/* Purple Glow Top */}
-
-     {/* Your Content/Components */}
