@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Primary";
+}
+
+@font-face {
+  font-family: "Primary";
+  src: url(./components/xn7gYHE41ni1AdIRggexSg.woff2);
+}
