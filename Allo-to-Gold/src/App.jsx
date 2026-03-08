@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import Gradient from './components/Gradient'
 import Hero from './components/Hero'
 import CustomCursor from './components/CustomCursor'
+import MainApp from './components/MainApp'
 
 const App = () => {
   const [mousePos, setMousePos] = useState({ x: -100, y: -100 });
@@ -25,6 +26,7 @@ const App = () => {
      <CustomCursor x={mousePos.x} y={mousePos.y} isHovering={isHovering} />
       <NavBar />
       <Hero setIsHovering={setisHovering} isHovering={isHovering} />
+      {/* <MainApp/> */}
     </div>
     </>
   )
