@@ -26,7 +26,7 @@ const App = () => {
      <CustomCursor x={mousePos.x} y={mousePos.y} isHovering={isHovering} />
       <NavBar />
       <Hero setIsHovering={setisHovering} isHovering={isHovering} />
-      {/* <MainApp/> */}
+      <MainApp/>
     </div>
     </>
   )
