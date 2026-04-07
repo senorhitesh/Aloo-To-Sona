@@ -8,7 +8,7 @@
 
   <br />
   
- **[Watch the Product/](https://www.linkedin.com/posts/hiteshsutharr_reactjs-webdevelopment-artificialintelligence-activity-7438894956154408960-6Lru?utm_source=li_share&utm_content=public_profile__posts&utm_medium=g_dt_web&utm_campaign=copy)]**
+ **[Live Demo](https://www.linkedin.com/posts/hiteshsutharr_reactjs-webdevelopment-artificialintelligence-activity-7438894956154408960-6Lru?utm_source=li_share&utm_content=public_profile__posts&utm_medium=g_dt_web&utm_campaign=copy)**
 </div>
 
 ---
@@ -22,8 +22,8 @@ Ever wanted to turn a raw potato into solid gold? Well, I finally built the mach
 > **Warning:** You cannot trick this machine. It knows its potatoes.
 
 ## 📸 Sneak Peek
-*(Drop a GIF or Screenshot of your project working here!)*
-`![App Screenshot](./path-to-your-image.png)`
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0ef7235f-996b-459c-9418-8ab1cf1f66ab" />
+
 
 ## 🧠 How It Works
 
